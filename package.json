@@ -5,7 +5,7 @@
   "main": "app.js",
   "private": true,
   "scripts": {
-    "clean": "rm -rf www/js/ && rm -rf www/images/",
+    "clean": "node scripts/clean.js",
     "webpack": "webpack --progress --colors",
     "dev-server": "webpack-dev-server --progress --colors --content-base www/",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,6 +20,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "css-loader": "^0.28.4",
     "file-loader": "^0.11.2",
+    "rimraf": "^2.6.1",
     "style-loader": "^0.18.2",
     "url-loader": "^0.5.9",
     "webpack": "^3.0.0",
