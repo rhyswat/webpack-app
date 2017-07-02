@@ -1,0 +1,5 @@
+node_modules
+www/fonts
+www/images
+www/js
+package-lock.json
